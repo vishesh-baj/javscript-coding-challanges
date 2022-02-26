@@ -14,7 +14,7 @@ const calculateTip = (billValue) => {
     `The bill was ${billValue}, the tip was ${totalTip} and the total amount to pay is ${totalBill}`
   );
 };
-
+// three test cases
 calculateTip(275);
 calculateTip(40);
 calculateTip(430);
