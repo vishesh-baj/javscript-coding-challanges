@@ -18,7 +18,7 @@ const calcAverageHumanAge = (dogsArr) => {
     .reduce((acc, curr, _, arr) => {
       let total = acc + curr;
       return total / arr.length;
-    });
+    }, 0);
 
   return humanAge;
 };
